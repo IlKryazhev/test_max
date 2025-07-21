@@ -14,8 +14,10 @@
   <body>
     <div id="app"></div>
     <script>
-      WebApp.ready();
+      setTimeOut(() => {
+        WebApp.ready();
       console.log('initData', WebApp.initData);
+      }, 3000)
     </script>
   </body>
 </html>
